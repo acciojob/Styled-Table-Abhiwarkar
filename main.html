@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COVID-19 Statistics</title>
+<style>
+  /* Your CSS styles can go here */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+</style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+<table>
+  <caption>COVID-19 Statistics</caption>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Cases</th>
+      <th>Recovered</th>
+      <th>Deaths</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USA</td>
+      <td>5,000,000</td>
+      <td>4,000,000</td>
+      <td>100,000</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>4,500,000</td>
+      <td>3,800,000</td>
+      <td>75,000</td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td>3,800,000</td>
+      <td>3,000,000</td>
+      <td>90,000</td>
+    </tr>
+    <tr>
+      <td>Russia</td>
+      <td>1,000,000</td>
+      <td>850,000</td>
+      <td>20,000</td>
+    </tr>
+    <!-- Add more rows if needed -->
+  </tbody>
+</table>
 </body>
 </html>
